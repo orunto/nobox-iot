@@ -2,6 +2,10 @@ import Icon from '@/components/Icon';
 import Image from 'next/image';
 import Link from 'next/link';
 
+import { Montserrat } from 'next/font/google';
+const montserrat = Montserrat({ subsets: ['latin'] })
+
+
 export default function Home() {
     return (
         <>
@@ -31,7 +35,7 @@ export default function Home() {
             </header>
 
 
-            <main>
+            <main className={montserrat.className}>
                 {/* Hero */}
                 <section className='text-center'>
                     <h1 className='text-lg1'>
