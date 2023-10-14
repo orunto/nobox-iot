@@ -154,7 +154,8 @@ void loop(){
             client.println("</body></html>");
             client.println("<script>");
             client.println("const soilMoistureStructure = {\"name\": \"Moisture Sensor\",\"description\": \"\",\"slug\": \"moisturesensor\",\"projectSlug\":\"iostream\",\"webhooks\": null,\"recordFieldStructures\": [{\"required\": false,\"unique\": false,\"description\": \"\",\"comment\": \"\",\"hashed\": false,\"name\": \"value\",\"slug\": \"value\",\"type\": \"NUMBER\"},{\"required\": true,\"unique\": false,\"description\": \"\",\"comment\": \"\",\"hashed\": false,\"name\": \"unit\",\"slug\": \"unit\",\"type\": \"TEXT\",\"defaultValue\":\"percent\"}]}");
-            client.println("const token = \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRGV0YWlscyI6eyJfaWQiOiI2NTBhZTZjZWMxNjk1MmMyOTU0NWZiZjYiLCJlbWFpbCI6InByZWNpb3Vzb2x1c29sYTE2QGdtYWlsLmNvbSIsInBpY3R1cmUiOiJodHRwczovL2F2YXRhcnMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvNTE1MjExODE_dj00IiwiZmlyc3ROYW1lIjoiUHJlY2lvdXMgT2x1c29sYSIsImxhc3ROYW1lIjpudWxsLCJjcmVhdGVkQXQiOiIyMDIzLTA5LTIwVDEyOjM0OjIyLjg3NloiLCJ1cGRhdGVkQXQiOiIyMDIzLTA5LTIwVDEyOjM0OjIyLjg3NloifSwiaWF0IjoxNjk2NjE4MzM0LCJleHAiOjE2OTY3NDc5MzR9.rxySE6NkWBDL5vtQRoV9Yrh8ZvHBDgNYX-SMC9_WL70\"");
+            // Place your auth token here
+            client.println("const token = \"here\"");
             client.println("const addMoistureUrl = \"https://api.nobox.cloud/iostream/soilmoisture/_single_\";");
             client.println("const requestHeader = new Headers();");
             client.println("requestHeader.append(\"structure\", JSON.stringify(soilMoistureStructure));");
