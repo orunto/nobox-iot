@@ -9,6 +9,9 @@ import Logs from '@/components/Logs';
 import useSensorContext, { SensorContextProvider } from '@/context/Sensor';
 import { useEffect } from 'react';
 
+import { Montserrat } from 'next/font/google';
+const montserrat = Montserrat({ subsets: ['latin'] })
+
 
 const Monitor = () => {
     const {status, records, updateStatus} = useSensorContext();
@@ -67,7 +70,7 @@ const Monitor = () => {
             </header>
 
 
-            <main className=''>
+            <main className={montserrat.className}>
                 {/* Sensors data display*/}
 
                 <section className='my-1 d-flex col row-md r-gap--2 align-center justify-evenly'>

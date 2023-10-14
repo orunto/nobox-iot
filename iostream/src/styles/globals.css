@@ -65,7 +65,7 @@
   
   
   @font-face {
-    font-family: 'ClashDisplay-Bold';
+    font-family: 'Clash Display';
     src: url('/fonts/ClashDisplay-Bold.woff2') format('woff2'),
          url('/fonts/ClashDisplay-Bold.woff') format('woff'),
          url('/fonts/ClashDisplay-Bold.ttf') format('truetype');
@@ -74,7 +74,17 @@
          font-style: normal;
   }
 h1 {
-    font-family: 'ClashDisplay-Bold';
+    font-family: 'Clash Display';
+    font-weight: 700;
+         font-display: swap;
+         font-style: normal;
+}
+
+h3 {
+  font-family: 'Clash Display';
+  font-weight: 700;
+       font-display: swap;
+       font-style: normal;
 }
 :root {
   --max-width: 1100px;
