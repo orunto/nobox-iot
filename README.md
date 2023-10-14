@@ -69,8 +69,8 @@ This project intends to make good use of all the services Nobox offers and all t
     <li>Webhook communication for instantaneous feedback</li>
 </ul>
 
-To contribute to this project, reach out to me [`here`](https://github.com/orunto/nobox-iot//discussions/new?category=contributions) to discuss your ideas to implement any item on the features wishlist or if you have an idea for a feature that's not on the list.
+To contribute to this project, reach out to me [`here`](https://github.com/orunto/nobox-iot/discussions/new?category=ideas) to discuss your ideas to implement any item on the features wishlist or if you have an idea for a feature that's not on the list.
 
 
 ## Discussions
-If you have questions, any questions actually, please feel free to ask in the [`Q&A discussion section`](https://github.com/orunto/nobox-iot//discussions/new?category=discussions)
+If you have questions, any questions actually, please feel free to ask in the [`Q&A discussion section`](https://github.com/orunto/nobox-iot/discussions/new?category=q-a)
